@@ -19,7 +19,6 @@ library(dplyr)
 
 #First of all, let us download the file with the source data
 
-setwd("D:/brunofbessa/estudos/coursera/cleaning_data/assignment")
 data_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file( data_url, destfile = "source_data.zip" )
 
